@@ -59,6 +59,6 @@ function bubbleSort(array) {
   return array;
 }
 
-bubbleSort(arrayRandom.slice()); // => outer: 9 inner: 90 swap: 21 (average case)
-bubbleSort(arrayOrdered.slice()); // => outer: 1 inner: 10 swap: 0 (best case)
-bubbleSort(arrayReversed.slice()); // => outer: 10 inner: 100 swap: 45 (worst case)
+bubbleSort(arrayRandom.slice()); // => outer: 9 inner: 90 swap: 21
+bubbleSort(arrayOrdered.slice()); // => outer: 1 inner: 10 swap: 0
+bubbleSort(arrayReversed.slice()); // => outer: 10 inner: 100 swap: 45
