@@ -23,6 +23,6 @@ By doing so we will be able to compare the different sorting algorithms more eas
 - [x] Bubble sort
 - [x] Selection sort
 - [x] Insertion sort
-- [ ] Shellsort
+- [x] Shellsort
 - [ ] Merge sort
 - [ ] Quicksort
