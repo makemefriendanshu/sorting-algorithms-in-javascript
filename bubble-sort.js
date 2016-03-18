@@ -1,5 +1,5 @@
 // array to sort
-var array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8]
+var array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
 
 // swap function helper
 function swap(array, i, j) {
@@ -17,7 +17,7 @@ function bubbleSortBasic(array) {
       }
     }
   }
-  return array
+  return array;
 }
 
 console.log(bubbleSortBasic(array.slice())); // => [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -34,7 +34,7 @@ function bubbleSort(array) {
       }
     }
   } while(swapped);
-  return array
+  return array;
 }
 
 console.log(bubbleSort(array.slice())); // => [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]

@@ -1,7 +1,7 @@
 // sample of arrays to sort
-var arrayRandom = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8]
-var arrayOrdered = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-var arrayReversed = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+var arrayRandom = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
+var arrayOrdered = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var arrayReversed = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
 
 // swap function helper
 function swap(array, i, j) {
@@ -28,7 +28,7 @@ function bubbleSortBasic(array) {
   }
 
   console.log('outer:', countOuter, 'inner:', countInner, 'swap:', countSwap);
-  return array
+  return array;
 }
 
 bubbleSortBasic(arrayRandom.slice()); // => outer: 10 inner: 90 swap: 21
@@ -56,7 +56,7 @@ function bubbleSort(array) {
   } while(swapped);
 
   console.log('outer:', countOuter, 'inner:', countInner, 'swap:', countSwap);
-  return array
+  return array;
 }
 
 bubbleSort(arrayRandom.slice()); // => outer: 9 inner: 90 swap: 21 (average case)
