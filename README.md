@@ -24,5 +24,5 @@ By doing so we will be able to compare the different sorting algorithms more eas
 - [x] Selection sort
 - [x] Insertion sort
 - [x] Shellsort
-- [ ] Merge sort
+- [x] Merge sort
 - [ ] Quicksort
